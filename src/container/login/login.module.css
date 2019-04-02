@@ -1,0 +1,51 @@
+form{
+    overflow: hidden;  
+    position: relative;
+}
+
+.general{
+    border:2px solid chocolate;
+    padding: 10%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 40vw;
+    border-radius: 25px;   
+    background-image: url('../../assets/hotel.jpg');
+    background-size: cover;
+    box-shadow: 2px 5px 15px  10px lightblue;
+}
+
+
+input{
+    width: 95%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  margin: 2%;
+}
+
+/* label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  } */
+
+  button{
+    background-color:rgb(253, 172, 42);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 12px;
+  }
+
+
+
+
+
+
