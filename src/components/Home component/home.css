@@ -12,9 +12,18 @@
     width: 10%;
     display: block;
     margin: 12px;
-    position: relative
+    position: relative;
 }
 
+@media (max-width:460px){
+  .logout{
+    width: 35%;
+    display: block;
+    margin: 12px;
+    position: relative;
+}
+
+}
 .counterAndButtons{
     position: absolute;
     top: 50%;
