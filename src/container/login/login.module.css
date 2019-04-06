@@ -18,6 +18,10 @@ form{
     box-shadow: 2px 5px 15px  10px lightblue;
 }
 
+.h1{
+  color: orange;
+  text-align: center;
+}
 
 input{
     width: 95%;
@@ -25,7 +29,9 @@ input{
   border: 1px solid #ccc;
   border-radius: 4px;
   resize: vertical;
-  margin: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 12px;
 }
 
 /* label {
@@ -41,6 +47,8 @@ input{
     border-radius: 4px;
     cursor: pointer;
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 12px;
   }
 
