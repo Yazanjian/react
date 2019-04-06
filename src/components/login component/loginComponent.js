@@ -4,7 +4,9 @@ import cardClassStyle from '../../container/login/login.module.css';
 const loginFrom = (props) => {
     return(
         <div className={cardClassStyle.general}>
+            
             <form>
+                <h1 className={cardClassStyle.h1}> Log in  </h1>
                 <span className={cardClassStyle.labelAndInput}>
                     <input type="Email" id="email" name="email" placeholder="Your email" required onChange={props.changeEmail}/>
                 </span>
